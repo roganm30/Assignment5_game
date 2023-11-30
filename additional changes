@@ -49,7 +49,7 @@ void draw() {
     println("Lucky");  // Prints "Lucky"
     break;
   default:
-    println("Scary");   // Does not execute
+    println("Default");   // Does not execute
     break;
   }
   
