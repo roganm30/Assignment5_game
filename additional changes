@@ -26,10 +26,10 @@ void draw() {
   
   switch(num) {
   case 0: 
-    println("Zero");  // Does not execute
+    println("Off");  // Does not execute
     break;
   case 1: 
-    println("One");  // Prints "One"
+    println("On");  // Prints "One"
     break;
     } 
     
@@ -39,17 +39,17 @@ void draw() {
      }
    }
    
-   char letter = 'B';
+   char letter = 'L';
 
   switch(letter) {
   case 'A': 
-    println("Alpha");  // Does not execute
+    println("Boo");  // Does not execute
     break;
   case 'B': 
-    println("Bravo");  // Prints "Bravo"
+    println("Lucky");  // Prints "Lucky"
     break;
   default:
-    println("Zulu");   // Does not execute
+    println("Scary");   // Does not execute
     break;
   }
   
