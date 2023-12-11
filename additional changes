@@ -136,7 +136,7 @@ void keyPressed() {
     playerY = height - 50;
     obstacleX = (int) random(width);
     obstacleY = 0;
-    score = 0;
+    score = 0; // Reset user score to 0
     obstacleSpeed = 5; // Reset obstacle falling speed
   }
 }
